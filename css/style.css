@@ -1,0 +1,362 @@
+
+body{
+	background-image: url(../images/bg.jpg);
+	margin:0;
+	background-size: 100%;
+	padding:0;
+	background-repeat: none;
+	background-attachment: fixed;
+	
+
+}
+.slider {
+	margin-top: 10px;
+	background-color: black;
+	width: 1300px;
+	opacity: 0.8;
+	height: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 560px;
+	position: relative;
+	margin-top: 0;
+}
+
+.slide {
+	width: 50%;
+	position: absolute;
+	height: 560px;
+	opacity: 0;
+	transition: opacity 2s linear;
+	margin-left: 320px;
+
+}
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+/* center text */
+.texts h1{
+	border-width: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#000000;
+	text-align: center;
+	font-size: 80px;
+	border-width: 2px;
+	width: 950px;
+    height: 115px;
+	border-style: dashed;
+	border-color: black;
+	
+}
+image{
+	width: 100%;
+}
+.image img{
+	float: left;
+	width: 8%;
+	height: 90px;
+	margin-right: 120px;
+	margin-left: 7px;
+	margin-top:4px;
+}
+.navigation{
+	text-align: center;
+	width: 100%;
+	background: black;
+	margin-top:0;
+	height: 100px;
+}
+
+.navigation a{
+	float: right;
+	margin-top:35px;
+	color: white;
+	text-decoration: none;
+	width: 150px;
+	padding: 0;
+	margin-right: 15px;
+}
+.navigation a:hover{
+	color: lightcoral;
+}
+hr{
+	border: double 5px;
+	margin-bottom: 0;
+}
+section.about{
+	background-color : whitesmoke;
+	opacity: 0.9;
+	background-size: 100%;
+	width: 1349.1px;
+	height: 500px;
+}
+
+.par{
+	height: 50%;
+	width: 50%;
+	float: left;
+	
+
+}
+.par p{
+
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 55px;
+	margin-top: 55px;
+
+}
+.section2{
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+.section2 img{
+	width: 70%;
+	height: 100%;
+	margin-left: 150px;
+	margin-top: 20px;
+	
+}
+h2{
+	font-family: Lucida Calligraphy;
+	margin-left: 220px;
+	margin-top: 70px;
+	width: 50%;	
+	text-align: center;
+}
+.section2 button{
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: black;
+	color: ivory;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 340px;
+	
+}
+.section2 button:hover {
+    background-color: grey;
+}
+  
+.section2 button:active {
+    background-color: black;;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+section.service{
+	margin-top: 0px;
+	background-image: url(../images/cakea.jpg);
+	width: 1339px;
+	height: 480px;
+	padding: 5px;
+	margin-bottom: 0;
+}
+.first{
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.fa-birthday-cake{
+	
+	background-color: black;
+	color: pink;
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 50px;
+	margin-left: 130px;
+	padding: 5px;
+
+}
+.second{
+	width: 25%;
+	height: 100%;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.fa-truck{
+	background-color: black;
+	color: pink;
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 50px;
+	margin-left: 130px;
+	padding: 5px;
+}
+
+.third{
+	width: 25%;
+	height: 100%;
+	float: right;
+	margin-right: 40px;
+	margin-top: 50px; 
+}
+.fa-ice-cream{
+	background-color: black;
+	color: pink;
+	margin-top: 50px;
+	margin-bottom: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 50px;
+	margin-left: 130px;
+	padding: 5px;
+}
+.service p{
+	font-size: 15px;  
+	color: black;
+	text-align: justify;
+	
+}
+
+footer{
+	width: 1309px;
+	height: 200px;
+	background-color: black;
+	margin-top: 0;
+	padding: 50px 20px 20px 20px;
+}
+.abouts{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.social{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.fa-map-marker-alt{
+	
+	background-color: gray;
+	border-radius: 60px;
+	padding: 10px;
+	font-size: 20px;
+	color: whitesmoke;
+	
+}
+.fa-phone{
+	background-color: gray;
+	border-radius: 50px;
+	padding: 10px;
+	font-size: 20px;
+	color: whitesmoke;
+}
+.fa-envelope{
+	background-color: gray;
+	border-radius: 50px;
+	padding: 10px;
+	font-size: 20px;
+	color: whitesmoke;
+}
+footer p {
+	color: honeydew;
+}
+.location{
+	padding: 5px;
+	display: inline;
+}
+.location p{
+	margin-left: 10px;
+	font-size: 20px;	
+	display: inline-block;
+}
+.phone{
+	width: 33%;
+	display: inherit;
+}
+.phone p{
+	margin-left: 10px;
+	font-size: 20px;
+	display: inline-block;
+}
+.mail{
+	display: inline;
+}
+.mail p{
+	margin-left: 10px;
+	font-size: 20px;
+	display: inline-block;
+}
+.social{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+h3{
+	color: honeydew;
+}
+.fa-facebook-f{
+	color: white;
+	font-size: 25px;
+	background-color: grey;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.fa-twitter{
+	color: white;
+	font-size: 25px;
+	background-color: grey;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 9px;
+	padding-right: 9px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.fa-instagram{
+	color: white;
+	font-size: 25px;
+	background-color: grey;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:12px;
+	padding-right: 12px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.fa-youtube{
+	color: white;
+	font-size: 25px;
+	background-color: grey;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 9px;
+	padding-right: 9px;
+	display: inline-block;
+	margin-left: 10px;
+}
+#top{
+	scroll-behavior: smooth;
+}
+button.top{
+	background-color: lightpink;
+	color: black;
+	font-style: bold;
+}

@@ -1,0 +1,107 @@
+body{
+	background-image: url(../images/bgcont.jpg);
+	margin:0;
+	background-size: 100%;
+	padding:0;
+	background-repeat: none;
+	background-attachment: fixed;
+	
+}
+img.banner{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+section.containers{
+    width: 100%;
+}
+.address{
+    width: 400px;
+    margin-left: 100px;
+    float: left;
+}
+h5{
+    font-size: 30px;
+}
+.address p{
+    font-size: 20px;
+    
+}
+.imahe img{
+    width: 20%;
+    margin-top: 100px;
+    float: left;
+}
+.message{
+    width: 500px;
+    float: right;
+}
+
+input::placeholder { 
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+input:placeholder-shown{
+    background-color: grey;
+
+}
+input{
+    border-radius: 5px;
+    padding: 0;
+    color: black;
+    width: 40%;
+    height: 25px;
+    font-size: 15px;
+    text-indent: 5px;
+}
+.question textarea::placeholder { 
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+.question textarea:placeholder-shown{
+    background-color: grey;
+    opacity: 0.9;
+
+
+}
+.question textarea{
+    margin-left: 2px;
+    margin-top: 10px ;
+    border-radius: 5px;
+    padding: 0;
+    color: black;
+    width: 80%;
+    height: 80px;
+    font-size: 15px;
+    text-indent: 5px;
+    resize: none;
+}
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+  
+button:hover {
+    background-color: black;
+}
+  
+button:active {
+    background-color: black;;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
