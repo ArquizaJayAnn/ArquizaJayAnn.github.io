@@ -1,6 +1,6 @@
 
 body{
-	background-image: url(../images/bg.jpg);
+	background-image: url('../images/bg.jpg');
 	margin:0;
 	background-size: 100%;
 	padding:0;
@@ -157,7 +157,7 @@ h2{
 
 section.service{
 	margin-top: 0px;
-	background-image: url(../images/cakea.jpg);
+	background-image: url('../images/cakea.jpg');
 	width: 1339px;
 	height: 480px;
 	padding: 5px;
